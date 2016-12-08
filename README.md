@@ -6,6 +6,12 @@ Just started on data analysis using ipython. Preserving this for learning. Espec
 * [pandas](http://pandas.pydata.org/)
 * [scipy](https://www.scipy.org/), [numpy](http://www.numpy.org/), [matplotlib](http://matplotlib.org/)
 
+## Samples
+
+Currently, only one is available.
+
+* [Funnel Analysis](https://github.com/vsbabu/ipython-notebooks/tree/master/funnel)
+
 ## Setup Instructions 
 
 These are specifically for `Ubuntu 16.04` and derivatives, for use with [Python 2.7](https://www.python.org/download/releases/2.7/) - _I am not familiar with [Python 3](https://wiki.python.org/moin/Python2orPython3)!_.
