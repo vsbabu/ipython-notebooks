@@ -5,3 +5,5 @@ jupyter-core
 notebook
 matplotlib
 scipy
+statsmodels
+patsy
