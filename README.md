@@ -20,7 +20,14 @@ Note - If your python installation is under _[linuxbrew](http://linuxbrew.sh/)_,
 
 ### Install dependencies
 ```sh
-sudo apt-get -y install python2.7 python-pip python-dev virualenv python-tk
+sudo apt-get -y install python2.7 python-pip python-dev virtualenv python-tk
+```
+
+#### For Ubuntu 14.04
+```sh
+sudo apt-get -y install python2.7 python-pip python-dev python-matplotlib libncurses-dev
+sudo pip install virtualenv
+#in requirements.txt, remove pkg-config
 ```
 
 ### Setup environment
