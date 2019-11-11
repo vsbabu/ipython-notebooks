@@ -5,7 +5,8 @@
 1. Use Pandas styler to highlight anomalies
 1. Transpose timeseries data frame to a weekly values dataframe AND stylize it.
 
-Sample data is in the [CSV file](prophet_example_weekly.csv) and is referred to
+Sample data is a function of time taken to execute a script that I run daily;
+and is in the [CSV file](prophet_example_weekly.csv). It is referred to
 in the [notebook](prophet_example_weekly.ipynb).
 
 Note that the github preview of the notebook does not show styled tables with
