@@ -2,6 +2,10 @@
 from random import randint
 import datetime
 
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+
+
 #these many number of devices will get made
 NUMBER_OF_DEVICES = 2000
 DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
@@ -29,7 +33,7 @@ def make_devices(maxnum=NUMBER_OF_DEVICES):
 
 
 def print_header():
-    print "deviceid,date,event"
+    print("deviceid,date,event")
 
 if __name__ == '__main__':
     device_ids = make_devices()
@@ -38,7 +42,7 @@ if __name__ == '__main__':
         events = FUNNEL_EVENTS[:randint(0, len(FUNNEL_EVENTS))]
         event_time = datetime.datetime.now() - datetime.timedelta(hours=randint(5,10))
         for event in events:
-            print "%s,%s,%s" % (device_id, event_time.strftime(DATE_FORMAT), event)
+            print("%s,%s,%s" % (device_id, event_time.strftime(DATE_FORMAT), event))
             event_time = event_time + datetime.timedelta(minutes=randint(10,60))
         
 
