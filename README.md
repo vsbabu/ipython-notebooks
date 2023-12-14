@@ -14,23 +14,12 @@ Currently, only one is available.
 
 ## Setup Instructions 
 
-These are specifically for `Ubuntu 16.04` and derivatives, for use with [Python 2.7](https://www.python.org/download/releases/2.7/) - _I am not familiar with [Python 3](https://wiki.python.org/moin/Python2orPython3)!_.
+*Edit* - 2023.12.14 - updated for Python 3 and latest version of Pandas, Prophet etc. Tested on Win11 with Anaconda 23.11, Python 3.10.11, Jupyter lab 4.0.8. 
 
-Note - If your python installation is under _[linuxbrew](http://linuxbrew.sh/)_, remove it (or createanother account that doesn't have _linuxbrew python_. I ran into some dependency issues with matplotlab and removed _linuxbrew python_ to get it to work. Didn't spend time to understand root cause and fix _linuxbrew_ installation. For the record, I love _linuxbrew_ and use it quite a lot - only two packages I've had issues there are _neovim_ and _python with tkinter_.
-
-### Install dependencies
-```sh
-sudo apt-get -y install python2.7 python-pip python-dev virtualenv python-tk
-```
-
-#### For Ubuntu 14.04
-```sh
-sudo apt-get -y install python2.7 python-pip python-dev python-matplotlib libncurses-dev
-sudo pip install virtualenv
-#in requirements.txt, remove pkg-config
-```
 
 ### Setup environment
+
+*Edit* - 2023.12.14 - I just used Anaconda as mentioned above with a conda env. Leaving previous instructions for Py2+Ubuntu 16.04 below for reference.
 
 We will use `virtualenv` to keep things clean.
 
